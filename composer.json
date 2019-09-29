@@ -1,0 +1,29 @@
+{
+    "name": "dmitry-silinsky/email-validator",
+    "description": "A PHP-library for validation email addresses",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Silinsky",
+            "email": "sil.dmitrij@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "dmitry-silinsky/validator": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "DmitrySilinsky\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DmitrySilinsky\\Tests\\": "tests"
+        }
+    }
+}
